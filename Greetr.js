@@ -3,7 +3,10 @@
 /*global console jQuery*/
 'use strict';
 
-(function(global, $) {
+/*
+    This ';' trick is for avoding error if we download previously another library that is not properly ended by a ';'
+*/
+;(function(global, $) {
     // Setting up a function that allows us to avoid using all the time the keyword 'new'
     var Greetr = function(firstname, lastname, language) {
         return new Greetr.init(firstname, lastname, language);
