@@ -2,6 +2,7 @@
 Greetr javascript library that generates greeting messages even for HMTL jQuery selected elements 
 
 Requirements
+
 	1) When given a first name, last name, and optional language, it generates formal and informal greetings.
 	
 	2) Support English and Spanish languages
